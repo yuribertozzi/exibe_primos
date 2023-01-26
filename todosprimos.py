@@ -1,8 +1,3 @@
-#playlist_yuri = ["Nightrain", "Dust 'n Bones", "One", "Mr. Crowley", "How You Remind Me"]
-
-#lis = [3, 5, 4, 2, 62]
-
-
 def primos(x):
 
 	divisor = 2
