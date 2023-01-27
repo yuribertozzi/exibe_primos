@@ -24,7 +24,7 @@ limite = int(input("Limite máximo: "))
 
 n = 2
 
-while n < limite:
+while n <= limite:
 
     if primos(n):
 
