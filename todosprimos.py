@@ -1,3 +1,5 @@
+prt = []
+
 def primos(x):
 
 	divisor = 2
@@ -28,6 +30,10 @@ while n <= limite:
 
     if primos(n):
 
-        print(n, end=", ")
+        prt.append(n)
+
+        # ou print(n, end=", ")
 
     n = n + 1
+
+print(prt)
